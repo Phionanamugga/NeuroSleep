@@ -1,6 +1,6 @@
 # app/api/routes.py
-from fastapi import APIRouter
-from pydantic import BaseModel, Field
+from fastapi import APIRouter # type: ignore
+from pydantic import BaseModel, Field # type: ignore
 from datetime import datetime, timedelta
 
 router = APIRouter()
