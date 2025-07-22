@@ -21,3 +21,5 @@ def test_get_recommendation():
     assert "sleep_debt_hours" in result
     assert "recommended_bedtime" in result
     assert isinstance(result["sleep_debt_hours"], float)
+
+
