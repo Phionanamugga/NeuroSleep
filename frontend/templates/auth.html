@@ -1,0 +1,51 @@
+<div class="auth-wrapper">
+  <div class="auth-card">
+    <div class="brand-header">
+      <img src="static/images/logo.svg" alt="Sleep Tracker Pro" class="logo">
+      <h1>Sleep Tracker Pro</h1>
+      <p>Optimize your sleep patterns for better health</p>
+    </div>
+
+    <div class="auth-tabs">
+      <button class="tab-btn active" data-tab="register">Register</button>
+      <button class="tab-btn" data-tab="login">Login</button>
+    </div>
+
+    <div class="tab-content active" id="register-tab">
+      <form id="register-form" class="auth-form">
+        <div class="input-group">
+          <label for="reg_user">Username</label>
+          <input id="reg_user" type="text" placeholder="Enter username" required>
+        </div>
+        <div class="input-group">
+          <label for="reg_pass">Password</label>
+          <input id="reg_pass" type="password" placeholder="Create password" required>
+        </div>
+        <button type="submit" id="btn_reg" class="btn-primary">Create Account</button>
+      </form>
+    </div>
+
+    <div class="tab-content" id="login-tab">
+      <form id="login-form" class="auth-form">
+        <div class="input-group">
+          <label for="login_user">Username</label>
+          <input id="login_user" type="text" placeholder="Your username" required>
+        </div>
+        <div class="input-group">
+          <label for="login_pass">Password</label>
+          <input id="login_pass" type="password" placeholder="Your password" required>
+        </div>
+        <button type="submit" id="btn_login" class="btn-primary">Login</button>
+      </form>
+    </div>
+
+    <div class="auth-footer">
+      <p>By continuing, you agree to our <a href="#">Terms</a> and <a href="#">Privacy Policy</a></p>
+    </div>
+  </div>
+
+  <div class="auth-background">
+    <img src="static/images/waves-bg.svg" alt="Background waves" class="waves">
+  </div>
+</div>
+

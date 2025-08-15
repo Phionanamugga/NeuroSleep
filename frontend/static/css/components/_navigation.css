@@ -1,0 +1,52 @@
+/* Sidebar Navigation Styles */
+.sidebar-nav {
+  width: 250px;
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+  padding-top: 80px;
+}
+
+.vertical-nav {
+  padding: 1rem;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.nav-item {
+  margin-bottom: 0.5rem;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: var(--gray-dark);
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+  color: var(--primary);
+}
+
+.nav-link.active {
+  background-color: rgba(67, 97, 238, 0.1);
+  color: var(--primary);
+}
+
+.nav-icon {
+  margin-right: 12px;
+}
+
+.nav-text {
+  font-weight: 500;
+}
+

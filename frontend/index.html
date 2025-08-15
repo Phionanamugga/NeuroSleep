@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleep Tracker Pro | Optimize Your Sleep</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/components/auth.css">
+  <link rel="stylesheet" href="static/css/components/dashboard.css">
+  <link rel="stylesheet" href="static/css/components/charts.css">
+  <link rel="icon" href="static/images/logo.svg">
+</head>
+<body>
+  <!-- Dynamic content injection -->
+  <div id="app">
+    <!-- Auth components will load here initially -->
+    <div id="auth-container"></div>
+    
+    <!-- Main app loads here after auth -->
+    <div id="dashboard-container" class="hidden"></div>
+  </div>
+
+  <!-- Loading indicator -->
+  <div id="loading-overlay" class="loading-overlay">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- JS imports -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script type="module" src="static/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<header class="app-header">
+  <div class="header-container">
+    <div class="branding">
+      <a href="/" class="logo-link">
+        <img src="/static/images/logo.svg" alt="Sleep Tracker Pro" class="logo">
+        <span class="app-name">Sleep Tracker Pro</span>
+      </a>
+    </div>
+
+    <nav class="primary-nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/dashboard" class="nav-link">
+            <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+              <polyline points="9 22 9 12 15 12 15 22"></polyline>
+            </svg>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="/trends" class="nav-link">
+            <svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+            <span>Trends</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="user-controls">
+      <div class="user-profile">
+        <span id="who" class="username"></span>
+        <button id="btn_logout" class="btn-logout">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+            <polyline points="16 17 21 12 16 7"></polyline>
+            <line x1="21" y1="12" x2="9" y2="12"></line>
+          </svg>
+          Sign Out
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
